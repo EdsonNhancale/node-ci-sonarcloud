@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --coverage",
-    "dev": "tsc ./src/main.ts && node ./src/main.js"
+    "dev": "tsc"
   },
   "dependencies": {
     "@types/jest": "^29.5.12",
