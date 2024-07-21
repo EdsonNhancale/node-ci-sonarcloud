@@ -1,10 +1,6 @@
-export default {
+module.exports = {
   transform: {
-    "^.+\.(t|j)sx?$": ["@swc/jest"],
-
+    "^.+\\.(t|j)sx?$": "@swc/jest"
   },
-  clearMocks: true,
-
-  coverageProvider: "v8",
-
+  // other configuration options...
 };
