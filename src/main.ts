@@ -1,4 +1,4 @@
-export function main(name: string) {
+export default function main(name: string) {
     return name
 }
 
