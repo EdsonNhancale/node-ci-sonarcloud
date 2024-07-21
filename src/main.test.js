@@ -1,4 +1,4 @@
-const { main } = require("./main");
+import main from "./main";
 
 describe('testing the main function', () => {
     test('should return the correct name ', () => {
